@@ -141,9 +141,7 @@ const reverse = () => {
 }
 
 const changeSign = () => {
-  initial = parseFloat(inputValue);
-
-  inputValue = (initial) * (-1);
+  inputValue = (parseFloat(inputValue)) * (-1);
   mainInput.value = inputValue;
 }
 
